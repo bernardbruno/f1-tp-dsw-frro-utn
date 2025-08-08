@@ -2,19 +2,23 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* Leg 53084 - Moretti Yrure, Pedro
+* Leg 52222 - Bernard, Bruno
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
 * [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+*2 a 6 líneas describiendo el negocio (menos es más)*<br>
+El Sistema es una plataforma de predicciónes de Fórmula 1, en donde cada usuario ingresa sus predicciones y compite con otros para intentar adivinar la mayor cantidad de resultados antes de que se corran las carreras. 
+
 
 ### Modelo
-![imagen del modelo]()
+![DCD](https://github.com/user-attachments/assets/1ba79ca9-c4af-4888-a9da-b904194bda43)
+
+
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
@@ -22,22 +26,21 @@
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Escuderia <br>2. CRUD Circuito|
+|CRUD dependiente|1. CRUD Piloto {depende de} CRUD Escuderia <br>|
+|Listado<br>+<br>detalle| 1. Listado de Pilotos => detalle CRUD Piloto y CRUD Escuderia<br>2. Listado Carreras próximas => detalle Carrera |
+|CUU/Epic|1. Gestionar la carrera (definir carrera y cargar escudería-piloto y circuito) |
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD | - |
+|Listado<br>+<br>detalle| 1. Listado de Usuarios con mejores Predicciones => detalle Usuario |
+|CUU/Epic|1. Gestionar Torneo (definir un torneo con sus carreras y sus participantes)<br>2.  Registrar predicciones y resultados de una carrera|
 
 
 ### Alcance Adicional Voluntario
@@ -46,7 +49,6 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
-
+|| |
+|CUU/Epic|1. Ingresar los resultados automáticamente mediante una API <br>2.  Crear Torneo privado <br>3. Realizar un post|
+|Otros| - |
