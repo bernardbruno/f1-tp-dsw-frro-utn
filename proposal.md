@@ -6,12 +6,11 @@
 * Leg 52222 - Bernard, Bruno
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app](https://github.com/bernardbruno/front-tp-dsw)
+* [backend app](https://github.com/bernardbruno/back-tp-dsw)
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*<br>
 El Sistema es una plataforma de predicciónes de Fórmula 1, en donde cada usuario ingresa sus predicciones y compite con otros para intentar adivinar la mayor cantidad de resultados antes de que se corran las carreras. 
 
 
@@ -20,7 +19,7 @@ El Sistema es una plataforma de predicciónes de Fórmula 1, en donde cada usuar
 
 
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+
 
 ## Alcance Funcional 
 
