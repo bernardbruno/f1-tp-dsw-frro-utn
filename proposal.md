@@ -15,7 +15,7 @@ El sistema es una plataforma interactiva de predicciones de Fórmula 1 que permi
 
 
 ### Modelo
-![DCD](../Modelo-Regularidad.png)
+![DCD](./Modelo-Regularidad.png)
 
 
 
@@ -37,8 +37,8 @@ Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Escuderia <br>2. CRUD Circuito<br>3. CRUD Piloto<br>4. CRUD Carrera <br>5. CRUD Resultado <br>6. CRUD Prediccion <br>7. CRUD Torneo<br>8. CRUD Usuario|
-|Listado<br>+<br>detalle|1. Listado de Pilotos => datos del piloto y su escudería asociada<br>2. Listado de Carreras => fecha, circuito, pilotos participantes y estado de la carrera|3. Listado de Usuarios con mejores Predicciones => datos del Usuario|
-|CUU/Epic|1.  Registrar predicción de una carrera<br>2. Gestionar Torneo (definir un torneo con sus carreras y sus participantes)|
+|Listado<br>+<br>detalle|1. Listado de Pilotos => datos del piloto y su escudería asociada<br>2. Listado de Carreras => fecha, circuito, pilotos participantes y estado de la carrera<br>3. Listado de Usuarios con mejores Predicciones => datos del Usuario|
+|CUU/Epic|1. Gestionar la Carrera: editar el estado, asignar el circuito y CRUD resultado de los pilotos con su escudería<br>2.  Registrar predicción de una carrera<br>3. Gestionar Torneo: definir un torneo con sus carreras y sus participantes|
 
 
 ### Alcance Adicional Voluntario
@@ -46,6 +46,6 @@ Regularidad:
 
 |Req|Detalle|
 |:-|:-|
-|CRUD|1.Post<br>2.Comentario<br>|
+|CRUD|1. Post<br>2. Comentario<br>|
 |CUU/Epic|1. Realizar un post<br>2. Ingresar los resultados automáticamente mediante una API|
 |Otros| - |
